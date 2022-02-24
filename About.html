@@ -1,0 +1,78 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, intial-scale=1.0">
+        <title>Electro Pen</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/4.png"></a>
+               <div class="nav-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hideMenu()"><h2>x</h2></i>
+                   <ul>
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="About.html">ABOUT</a></li>
+                       <li><a href="Competitions.html">COMPETITION</a></li>
+                       
+                       <li><a href="Contact%20us.html">CONTACT US</a></li>
+                   </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"><h2>...</h2></i>
+            </nav>
+            <h1>About Us</h1>
+            <p>We are one of the most creative artists of the world.<br>Our exclusive artist Japnaad Singh Mahal has planned<br> a beneficial way of giving an oppurtunity for beginner artists by various competitions.<br>ENROLL NOW!<br>Initiative to be an artist!</p>
+        </section>
+        <!----------course----------->
+             
+        <section class="Artworks">
+            <h1>Our Artworks</h1>
+            <p>See the amazing artworks created by us.</p>
+            <div class="row">
+                <div class="Artworks-col">
+                <img src="Images/5.png">
+                    <div class="layer">
+                        <h3>Tommy Hilfiger</h3>
+                    </div>
+                </div>
+                <div class="Artworks-col">
+                <img src="Images/6.jpg">
+                    <div class="layer">
+                        <h3>1985</h3>
+                    </div>
+                </div>
+                <div class="Artworks-col">
+                <img src="Images/8.png">
+                    <div class="layer">
+                        <h3>GTA Lisa</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        
+        <section class="cta">
+            <h1>Enroll For Our Various Online Competitions<br>Anywhere From The World</h1>
+        <a href="Competitions.html" class="hero-btn">COMPETITIONS</a>
+        </section>
+        
+        
+               <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+                    function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>
+        
+        
+    </body>
+</html>

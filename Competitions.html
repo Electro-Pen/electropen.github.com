@@ -1,0 +1,76 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, intial-scale=1.0">
+        <title>Electro Pen</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/4.png"></a>
+               <div class="nav-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hideMenu()"><h2>x</h2></i>
+                   <ul>
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="About.html">ABOUT</a></li>
+                       <li><a href="Competitions.html">COMPETITION</a></li>
+                       
+                       <li><a href="Contact%20us.html">CONTACT US</a></li>
+                   </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"><h2>...</h2></i>
+            </nav>
+            <div class="text-box">
+                <h1>Competitions</h1>
+                <p>Initiative to be an artist!</p>
+                
+            </div>
+        </section>
+        
+       
+        
+        <section class="competition">
+            <h1>Our Art Competition</h1>
+            <p>If you have learnt art enough then we have amazing opportunities for you!</p>
+            <h1>How to win 👇🏼</h1>
+            <div class="row">
+                <div class="competition-col">
+                <img src="Images/9.jpg">
+                    <h3>1. Register</h3>
+                    <p>Register for competition by contacting us.<br>You just need to fill your username and e-mail and send us that you are intersted.</p>
+                </div>
+                <div class="competition-col">
+                <img src="Images/10.jpg">
+                    <h3>2. Create</h3>
+                    <p>Register for competition by contacting us.<br>You just need to fill your username and e-mail and send us that you are intersted.</p>
+                </div>
+                <div class="competition-col">
+                <img src="Images/11.jfif">
+                    <h3>3. Win</h3>
+                    <p>Register for competition by contacting us.<br>You just need to fill your username and e-mail and send us that you are intersted.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cpage">
+        <a href="cpage.html" class="hero-btn red-btn">Find Competitions</a>
+        </section>
+        
+        
+               <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+                    function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>
+        
+    </body>
+</html>

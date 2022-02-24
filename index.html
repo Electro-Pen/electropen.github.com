@@ -1,0 +1,120 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, intial-scale=1.0">
+        <title>Electro Pen</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/4.png"></a>
+               <div class="nav-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hideMenu()"><h2>x</h2></i>
+                   <ul>
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="About.html">ABOUT</a></li>
+                       <li><a href="Competitions.html">COMPETITION</a></li>
+                       <!--<li><a href="">COURSE</a></li>-->
+                       <li><a href="Contact%20us.html">CONTACT US</a></li>
+                   </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"><h2>...</h2></i>
+            </nav>
+            <div class="text-box">
+                <h1>Electro Pen</h1>
+                <p>Initiative to be an artist!</p>
+                
+            </div>
+        </section>
+        <!----------course-----------
+        <section class="course">
+            <h1>Join our Art Course</h1>
+            <p>Join this free art course, and you will find that you are an amazing artist!<br> INTIATIVE TO BE AN ARTIST!</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Beginner</h3>
+                    <p>If you are new to art this is for you. You will get to learn how to hold the pencil, accurate shaping, designing and colouring objects.<br>This is totally FREE!</p>
+                </div>
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>At this level we will teach you how to shade, light to dark; different tints and shades and blending.<br>This is totally FREE! </p>
+                </div>
+                <div class="course-col">
+                    <h3>Advanced</h3>
+                    <p>This is the advanced version. you will learn to draw the tiniest detail and become a professional artist.<br>This will cost you $30.</p>
+                </div>
+            </div>
+        </section>------>       
+        <section class="Artworks">
+            <h1>Our Artworks</h1>
+            <p>See the amazing artworks created by us.</p>
+            <div class="row">
+                <div class="Artworks-col">
+                <img src="Images/5.png">
+                    <div class="layer">
+                        <h3>Tommy Hilfiger</h3>
+                    </div>
+                </div>
+                <div class="Artworks-col">
+                <img src="Images/6.jpg">
+                    <div class="layer">
+                        <h3>1985</h3>
+                    </div>
+                </div>
+                <div class="Artworks-col">
+                <img src="Images/8.png">
+                    <div class="layer">
+                        <h3>GTA Lisa</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="competition">
+            <h1>Our Art Competition</h1>
+            <p>If you have learnt art enough then we have amazing opportunities for you!</p>
+            <h1>How to win 👇🏼</h1>
+            <div class="row">
+                <div class="competition-col">
+                <img src="Images/9.jpg">
+                    <h3>1. Register</h3>
+                    <p>Register for competition by contacting us.<br>You just need to fill your username and e-mail and send us that you are intersted.</p>
+                </div>
+                <div class="competition-col">
+                <img src="Images/10.jpg">
+                    <h3>2. Create</h3>
+                    <p>Register for competition by contacting us.<br>You just need to fill your username and e-mail and send us that you are intersted.</p>
+                </div>
+                <div class="competition-col">
+                <img src="Images/11.jfif">
+                    <h3>3. Win</h3>
+                    <p>Register for competition by contacting us.<br>You just need to fill your username and e-mail and send us that you are intersted.</p>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <h1>Enroll For Our Various Online Competitions<br>Anywhere From The World</h1>
+        <a href="Competitions.html" class="hero-btn">COMPETITIONS</a>
+        </section>
+        
+        
+        <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+                    function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>
+        
+        
+    </body>
+</html>
