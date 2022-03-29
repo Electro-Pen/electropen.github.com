@@ -7,7 +7,7 @@ $subject = $_POST['subject'];
 
 $message = $_POST['message'];
 
-$email_from = 'info@https://electro-pen.github.io/electropen.github.com/electropen.github.com.html';
+$email_from = 'electro-pen.github.io';
 
     $email_subject = 'New Form Submission';
 
